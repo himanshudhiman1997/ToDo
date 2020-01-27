@@ -6,7 +6,7 @@ export default function Header()
     return (
         <View style = {styles.header}>
             <Text style = {styles.title}>
-                My ToDos
+                My Todos
             </Text>
         </View>
     )
@@ -18,4 +18,10 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: 'coral'
     },
+    title: {
+        textAlign: 'center',
+        color: '#fff',
+        fontSize: 20,
+        fontWeight: 'bold'
+    }
 });
